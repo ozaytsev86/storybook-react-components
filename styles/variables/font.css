@@ -1,0 +1,13 @@
+:root {
+    --font-size-xs: .6rem;   /* 12px */
+    --font-size-s: .7rem;    /* 14px */
+    --font-size-m: .8rem;    /* 16px */
+    --font-size-l: .9rem;    /* 18px */
+    --font-size-xl: 1rem;    /* 20px */
+    --font-size-2xl: 1.2rem; /* 24px */
+    --font-size-3xl: 1.4rem; /* 28px */
+
+    --font-weight-bold: 500;
+    --font-weight-normal: 400;
+    --font-weight-light: 300;
+}

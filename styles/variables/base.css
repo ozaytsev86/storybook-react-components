@@ -1,0 +1,37 @@
+:root {
+    /* Base definitions */
+    --base-bg-color: var(--color-white-100);
+    --base-font-color: var(--color-grey-60);
+    --base-font-family: Lato, 'Open Sans', 'Gill Sans MT', 'Gill Sans', Corbel, Arial, sans-serif;
+    --base-font-size: 20px;
+
+    /* */
+    --border-color-dark: var(--color-grey-120);
+    --border-color: var(--color-grey-140);
+    --border-color-light: var(--color-grey-160);
+
+    /*--bg-color: var(--color-grey-180);*/
+    /*--bg-color-light: var(--color-grey-200);*/
+
+    --form-element-border-color: var(--color-grey-140);
+    --form-element-bg-color: var(--color-grey-200);
+    --form-element-color-disabled: var(--color-grey-120);
+    --form-element-bg-color-disabled: var(--color-grey-160);
+
+    /*--btn-primary-color-1: var(--color-blue);*/
+    /*--btn-primary-color-2: var(--color-blue-dark);*/
+    /*--btn-primary-color-3: var(--color-blue-very-light);*/
+    /*--btn-secondary-color-1: var(--color-juri-light);*/
+    /*--btn-secondary-color-2: var(--color-juri);*/
+    /*--btn-secondary-color-3: var(--color-juri-very-light);*/
+    /*--btn-tertiary-color-1: var(--color-white);*/
+    /*--btn-tertiary-color-2: var(--color-juri-light);*/
+    /*--btn-tertiary-color-3: var(--color-juri);*/
+    /*--btn-danger-color-1: var(--color-red);*/
+    /*--btn-danger-color-2: var(--color-red-dark);*/
+    /*--btn-danger-color-3: var(--color-red-very-light);*/
+    /*--btn-success-color-1: var(--color-green);*/
+    /*--btn-success-color-2: var(--color-green-dark);*/
+    /*--btn-success-color-3: var(--color-green-very-light);*/
+
+}
