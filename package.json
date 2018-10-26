@@ -1,0 +1,26 @@
+{
+  "name": "storybook-react-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "start-storybook -p 9001 -c ./config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozaytsev86/storybook-react-components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozaytsev86/storybook-react-components/issues"
+  },
+  "homepage": "https://github.com/ozaytsev86/storybook-react-components#readme",
+  "dependencies": {
+    "@storybook/react": "^3.4.11",
+    "babel-core": "6",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
