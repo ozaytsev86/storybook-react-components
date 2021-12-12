@@ -1,0 +1,21 @@
+.c-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+}
+
+.c-card-title {
+    margin: 0;
+    background-color: whitesmoke;
+    display: flex;
+    padding: 5px;
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.c-card-body {
+    padding: 5px;
+}

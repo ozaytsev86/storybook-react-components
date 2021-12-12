@@ -5,6 +5,8 @@ yarn-debug.log
 yarn-error.log
 yarn.lock
 package-lock.json
+storybook-static
+build-storybook.log
 
 # Misc
 .DS_Store
