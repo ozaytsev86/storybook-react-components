@@ -1,9 +1,6 @@
 name: 'Deploy to Chromatic'
 
-on:
-  push:
-    branches:
-      - master
+on: push
 
 jobs:
   chromatic-deployment:
