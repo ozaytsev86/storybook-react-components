@@ -3,15 +3,15 @@
     flex-direction: column;
     background-color: white;
     border: 1px solid whitesmoke;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 .c-card-title {
     margin: 0;
     background-color: whitesmoke;
     display: flex;
-    padding: 5px;
-    border-radius: 2px;
+    padding: 10px;
+    border-radius: 5px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
