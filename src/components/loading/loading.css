@@ -1,0 +1,74 @@
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.c-loading {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.c-loading--overlay {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    z-index: 2;
+    top: 0;
+}
+
+.c-loading-spinner {
+    color: transparent !important;
+    min-height: 20px;
+    min-width: 20px;
+    pointer-events: none;
+    position: relative;
+}
+
+.c-loading-spinner:after {
+    animation: loading 800ms infinite linear;
+    border: 5px solid blueviolet;
+    border-radius: 50%;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    content: '';
+    display: block;
+    height: 20px;
+    width: 20px;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+}
+
+.c-loading-spinner--sm {
+    min-height: 40px;
+    min-width: 40px;
+}
+
+.c-loading-spinner--sm:after {
+    height: 30px;
+    width: 30px;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+
+.c-loading-spinner--lg {
+    min-height: 50px;
+    min-width: 50px;
+}
+
+.c-loading-spinner--lg:after {
+    height: 40px;
+    width: 40px;
+    margin-left: -20px;
+    margin-top: -20px;
+}
