@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/ozaytsev86/storybook-react-components/issues"
   },
-  "homepage": "https://github.com/ozaytsev86/storybook-react-components#readme",
+  "homepage": "https://github.com/ozaytsev86/storybook-react-components",
   "dependencies": {
     "@storybook/react": "^6.4.9",
     "babel-core": "6.26.3",
